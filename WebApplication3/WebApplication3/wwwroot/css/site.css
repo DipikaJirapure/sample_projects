@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Page Styling */
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 20px;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Add Button */
+a {
+    text-decoration: none;
+}
+
+.add-btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+    .add-btn:hover {
+        background-color: #1d4ed8;
+    }
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    /* Table Header */
+    table th {
+        background-color: #616e89;
+        color: white;
+        padding: 5px;
+        text-align: left;
+    }
+
+    /* Table Rows */
+    table td {
+        padding: 9px 5px;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    /* Alternate Row Color */
+    table tr:nth-child(even) {
+        background-color: #f9fafb;
+    }
+
+    /* Hover Effect */
+    table tr:hover {
+        background-color: #eef2ff;
+    }
+
+/* Delete Button */
+.delete-btn {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .delete-btn:hover {
+        background-color: #b91c1c;
+    }
